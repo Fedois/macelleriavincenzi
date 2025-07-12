@@ -1,3 +1,5 @@
+Website for Macelleria Vincenzi. I used React 19 with Aos library and Routes
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
