@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 function Privacy() {
     return(
-        <>
+       <>
        <section id="privacy-content">
             <div className="container">
                 <h1>Privacy Policy</h1>

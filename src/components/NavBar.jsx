@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom"
-
 function Header() {
     const links = [
         {href: '#home', name: 'Home'},
@@ -18,7 +16,7 @@ function Header() {
                 <nav>
                     <ul>
                         {links.map((link, index) => (
-                            <li key={index}><Link to={link.href}>{link.name}</Link></li> 
+                            <li key={index}><a href={link.href}>{link.name}</a></li> 
                         ))}
                     </ul>
                 </nav>
